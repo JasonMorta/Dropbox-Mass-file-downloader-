@@ -1,0 +1,23 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.textFieldContainers{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.form-group {
+    width: 45% !important;
+}
+
+.btn-dark {
+    width: 100% !important;
+}
