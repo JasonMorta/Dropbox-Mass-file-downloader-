@@ -1,7 +1,7 @@
 console.log(`%c Auth.js started`, "color: #f94144");
 
 //! Dropbox credentials
-const dropboxClientId = process.env.CLIENT_ID; // API key
+const dropboxClientId = ""; // API key
 const clientSecret = process.env.API_KEY_SECRET; // API secret
 const redirectHomeUrl = "http://127.0.0.1:5501/index.html"; // your redirect URI http://localhost:3000/testRoute/index.html
 
